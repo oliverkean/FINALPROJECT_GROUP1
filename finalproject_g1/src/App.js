@@ -11,8 +11,9 @@ function App() {
         <div className="col-sm-12 col-md-6 col-lg-6">
           <Heading text="This is a Heading" size="5" color="danger"/>
         </div>
+        
         <div className="col-sm-12 col-md-6 col-lg-6">
-        <Heading text="This is a Heading too" size="6" color="success"/>
+          <Heading text="This is a Heading too" size="6" color="success"/>
         </div>
       </TwoColGrid>
     </div>
