@@ -1,7 +1,7 @@
-import Button from "./Components/Button";
-import ButtonLink from "./Components/ButtonLink";
-import TwoColGrid from "./Layouts/TwoColGrid";
-import ThreeColGrid from "./Layouts/ThreeColGrid";
+import Button from "../Components/Button";
+import ButtonLink from "../Components/ButtonLink";
+import TwoColGrid from "../Layouts/TwoColGrid";
+import ThreeColGrid from "../Layouts/ThreeColGrid";
 
 function LandingPage() {
     return(
