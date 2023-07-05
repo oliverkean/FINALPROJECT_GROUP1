@@ -1,10 +1,8 @@
-import React from 'react'
-
-function Heading() {
+function Heading({text, size, weight, color}) {
   return (
-    <div>
-      
-    </div>
+    <>
+        <span className={`fs-${size} fw-${weight} text-${color}`}>{text}</span>
+    </>
   )
 }
 
