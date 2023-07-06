@@ -1,7 +1,7 @@
 function ThreeColGrid({col1, col2, col3}) {
     return(
 
-        <div className = 'row'>
+        <div className = 'row container mx-auto'>
             <div className="col-sm-12 col-md-6 col-lg-4">
                 {col1}
             </div>
