@@ -11,6 +11,7 @@ import reportWebVitals from './reportWebVitals';
 // Pages
 import LandingPage from "./Pages/LandingPage";
 import References from "./Pages/References";
+import LearnMore from './Pages/LearnMore';
 
 // routes
 const router = createBrowserRouter([
@@ -24,6 +25,12 @@ const router = createBrowserRouter([
     path: '/references',
     element: <References/>,
   },
+  //Learn more route
+  {
+    path: "/learn-more",
+    element: <LearnMore/>,
+  },
+
 ]);
 
 

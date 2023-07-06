@@ -18,7 +18,7 @@ function Navbar() {
                             {/* <a class="nav-link active" aria-current="page" href="#">Learn More</a> */}
                         </li>
                         <li class="nav-item">
-                            <Link to={`/references`} className="nav-link">
+                            <Link to={`/learn-more`} className="nav-link">
                                 <Button text="Learn More" color="primary"/>
                             </Link>
                             {/* <a class="nav-link" href="#">References</a> */}
