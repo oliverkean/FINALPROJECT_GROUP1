@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import Button from "../Components/Button";
 import ButtonLink from "../Components/ButtonLink";
 import TwoColGrid from "../Layouts/TwoColGrid";
@@ -40,16 +39,3 @@ function LandingPage() {
 }
 
 export default LandingPage
-=======
-import React from 'react'
-
-function LandingPage() {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default LandingPage
->>>>>>> 01433377aa83a7ef2e995849897e199b25aea18f
