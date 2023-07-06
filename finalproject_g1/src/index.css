@@ -7,3 +7,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-toggler-icon,
+.navbar-toggler,
+.navbar-toggler-icon:focus{
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+
+}
