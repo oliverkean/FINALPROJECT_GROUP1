@@ -23,11 +23,13 @@ function LandingPage() {
             {/* Footer */}
 
             {/* Testing */}
-            <ThreeColGrid 
-                col1={<BodyContent1 image={icon1} title="Education Opportunities" text="lorem ipsum dolor sit amet"/>}
-                col2={<BodyContent1 image={icon2} title="Equitable Education" text="lorem ipsum dolor sit amet"/>}
-                col3={<BodyContent1 image={icon3} title="Child Development" text="lorem ipsum dolor sit amet"/>}
-            />
+            <div className="container">
+                <ThreeColGrid
+                    col1={<BodyContent1 image={icon1} title="Education Opportunities" text="lorem ipsum dolor sit amet"/>}
+                    col2={<BodyContent1 image={icon2} title="Equitable Education" text="lorem ipsum dolor sit amet"/>}
+                    col3={<BodyContent1 image={icon3} title="Child Development" text="lorem ipsum dolor sit amet"/>}
+                />
+            </div>
             <Footer/>
 
         </div>
