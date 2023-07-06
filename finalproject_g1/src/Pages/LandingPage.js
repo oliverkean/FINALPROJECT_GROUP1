@@ -6,7 +6,7 @@ import Navbar from "../Components/Navbar";
 
 function LandingPage() {
     return(
-        <div className="container">
+        <div>
             {/* Nav */}
             <Navbar/>
             {/* Header */}
