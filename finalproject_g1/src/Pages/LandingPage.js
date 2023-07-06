@@ -28,13 +28,19 @@ function LandingPage() {
             {/* Footer */}
 
             {/* Testing */}
-            {/* <ThreeColGrid 
+            <ThreeColGrid 
                 col1={<BodyContent1 image={icon1} title="Title" text="lorem ipsum dolor sit amet"/>}
                 col2={<BodyContent1 image={icon2} title="Title" text="lorem ipsum dolor sit amet"/>}
                 col3={<BodyContent1 image={icon3} title="Title" text="lorem ipsum dolor sit amet"/>}
-            /> */}
+            />
 
-            <BodyContent2 image={img1} title="Title" text="lorem ipsum dolor sit amet"/>
+            <BodyContent2 
+                image={img1} 
+                title="Title" 
+                text="lorem ipsum dolor sit amet"
+                orderL={0}
+                orderR={0}
+            />
             {/* <TwoColGrid 
                 col1={}
                 col2={}
