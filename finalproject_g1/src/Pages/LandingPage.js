@@ -1,9 +1,14 @@
-import Button from "../Components/Button";
-import ButtonLink from "../Components/ButtonLink";
-import TwoColGrid from "../Layouts/TwoColGrid";
 import ThreeColGrid from "../Layouts/ThreeColGrid";
 import Navbar from "../Components/Navbar";
+<<<<<<< HEAD
 import Footer from "../Components/Footer";
+=======
+import BodyContent1 from "../Components/BodyContent1";
+
+import icon1 from '../Assets/images/icons8-education-100.png'
+import icon2 from '../Assets/images/icons8-bullseye-100.png'
+import icon3 from '../Assets/images/icons8-development-64.png'
+>>>>>>> 55b1cca84e440f3f60ff95ff77fae9bdb6d0dab2
 
 function LandingPage() {
     return(
@@ -21,21 +26,16 @@ function LandingPage() {
             {/* Footer */}
 
             {/* Testing */}
-            <Button text="Button 1" color="primary"/>
-            <ButtonLink text="Button 2" color="primary" link=""/>
-            <TwoColGrid
-                // pass 2 components as columns eg. col1 = {<Button/>}
-                // pass in a component instead of normal jsx
-                col1 = {<Button text="col1" color='secondary'/>}
-                col2 = {<div className="bg-secondary">2</div>}
+            <ThreeColGrid 
+                col1={<BodyContent1 image={icon1} title="Title" text="lorem ipsum dolor sit amet"/>}
+                col2={<BodyContent1 image={icon2} title="Title" text="lorem ipsum dolor sit amet"/>}
+                col3={<BodyContent1 image={icon3} title="Title" text="lorem ipsum dolor sit amet"/>}
             />
-            <ThreeColGrid
-                // pass 3 components as columns eg. col1 = {<Button/>}
-                col1 = {<div className="bg-primary">1</div>}
-                col2 = {<div className="bg-secondary">2</div>}
-                col3 = {<div className="bg-danger">3</div>}
-            />
+<<<<<<< HEAD
             <Footer/>
+=======
+            
+>>>>>>> 55b1cca84e440f3f60ff95ff77fae9bdb6d0dab2
         </div>
     );
 }
