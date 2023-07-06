@@ -7,7 +7,7 @@ function Navbar() {
     return(
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
-            <a class="navbar-brand text-uppercase fw-semibold text-danger" href="/">
+            <a class="navbar-brand text-uppercase fw-semibold" href="/">
                 <img src="https://img.favpng.com/20/11/21/sustainable-development-goals-education-sustainability-png-favpng-3K0Yumrj02EFKFJW51Ar2d3yn.jpg" width="40" height="40" class="d-inline-block align-text-middle me-3"/>
                 Quality Education
             </a>                
@@ -22,7 +22,7 @@ function Navbar() {
                         </li>
 
                         <li class="nav-item">
-                            <Link to={`/references`}>
+                            <Link to={`/`}>
                                 <Button color="danger" text={"Learn more"}/>
                             </Link>
                         </li>
