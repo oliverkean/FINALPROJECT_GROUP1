@@ -3,6 +3,7 @@ import ButtonLink from "../Components/ButtonLink";
 import TwoColGrid from "../Layouts/TwoColGrid";
 import ThreeColGrid from "../Layouts/ThreeColGrid";
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 function LandingPage() {
     return(
@@ -34,6 +35,7 @@ function LandingPage() {
                 col2 = {<div className="bg-secondary">2</div>}
                 col3 = {<div className="bg-danger">3</div>}
             />
+            <Footer/>
         </div>
     );
 }
