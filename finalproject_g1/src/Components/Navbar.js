@@ -15,13 +15,11 @@ function Navbar() {
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <Link to={`/`} className="nav-link active">Home</Link>
-                            {/* <a class="nav-link active" aria-current="page" href="#">Learn More</a> */}
                         </li>
                         <li class="nav-item">
                             <Link to={`/references`} className="nav-link">
                                 <Button text="Learn More" color="primary"/>
                             </Link>
-                            {/* <a class="nav-link" href="#">References</a> */}
                         </li>
                     </ul>
                 </div>
