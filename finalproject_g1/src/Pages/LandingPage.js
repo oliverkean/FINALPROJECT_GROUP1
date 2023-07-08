@@ -1,6 +1,7 @@
 import ThreeColGrid from "../Layouts/ThreeColGrid";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
+import Cards from "../Components/Cards";
 import BodyContent1 from "../Components/BodyContent1";
 
 import icon1 from '../Assets/images/icons8-education-100.png'
@@ -23,12 +24,21 @@ function LandingPage() {
             {/* Footer */}
 
             {/* Testing */}
+            {/*testing olibs, suggestion put it into section*/}
+            <div className="container"> 
+                <ThreeColGrid
+                    col1={<BodyContent1 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>}
+                    col2={<BodyContent1 image={icon2} title="Equitable Education" text="Providing all learning resource"/>}
+                    col3={<BodyContent1 image={icon3} title="Child Development" text="Developing all skill capabilities"/>}
+                />
+            </div>
+
             <div className="container">
                 <ThreeColGrid
-                    col1={<BodyContent1 image={icon1} title="Education Opportunities" text="lorem ipsum dolor sit amet"/>}
-                    col2={<BodyContent1 image={icon2} title="Equitable Education" text="lorem ipsum dolor sit amet"/>}
-                    col3={<BodyContent1 image={icon3} title="Child Development" text="lorem ipsum dolor sit amet"/>}
-                />
+                        col1={<Cards image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>}
+                        col2={<Cards image={icon2} title="Equitable Education" text="Providing all learning resource"/>}
+                        col3={<Cards image={icon3} title="Child Development" text="Developing all skill capabilities"/>}
+                    />
             </div>
             <Footer/>
 
