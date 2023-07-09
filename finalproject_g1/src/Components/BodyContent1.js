@@ -6,7 +6,7 @@ function BodyContent1({image, title, text}) {
                     <img style={{ width: '64px', height: '64px' }} src={image} alt="icon"/>
                 </div>
                 <div className="col-sm-4 col-md-4 col-lg-12">
-                    <span className="fs-3 fw-bold">{title}</span>
+                    <span className="fs-5 fw-bold">{title}</span>
                 </div>
                 <div className="col-sm-4 col-md-4 col-lg-12">
                     <span className="fs-6 text-secondary">{text}</span>

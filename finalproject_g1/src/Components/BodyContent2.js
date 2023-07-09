@@ -1,19 +1,21 @@
-function BodyContent2({image, title, text, orderL, orderR, bg}) {
+import TwoColGrid from "../Layouts/TwoColGrid";
+
+function BodyContent2({img, title, text, ordL, ordR}) {
     return(
         <>
-            <div className="row align-items-center mx-auto border">
-                <div className={`col-lg-6 col-md-12 mb-lg-0 mb-md-0 mb-sm-5 mb-5 order-md-${orderL}`}>
-                    <img src={image} alt='image' style={{width: '100%', height: 'auto'}} className="p-lg-5"/>
+            <TwoColGrid>
+                <div className={`col-sm-12 col-md-6 col-lg-6 order-lg-${ordL} border`}>
+                    <img src={img} alt="Image" loading="lazy" className="img-fluid"/>
                 </div>
-                <div className={`col-lg-6 col-md-12 p-lg-5 order-md-${orderR}`}>
+                <div className={`col-sm-12 col-md-6 col-lg-6 order-lg-${ordR}`}>
                     <div>
-                        <span className="fs-2 fw-bold">{title}</span>
+                        <span className="fs-1 fw-bold">{title}</span>
                     </div>
                     <div>
                         <span className="fs-5 text-secondary">{text}</span>
                     </div>
                 </div>
-            </div>
+            </TwoColGrid>
         </>
     );
 }
