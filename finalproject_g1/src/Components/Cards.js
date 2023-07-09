@@ -5,7 +5,7 @@ function Cards({image, title, text}) {
             <div class="card-body">
                 <h5 class="card-title">{title}</h5>
                 <p class="card-text">{text}</p>
-                <a href="#" class="text-primary">Learn More</a>
+                <a href="#" class="text-primary text-decoration-none">Learn More</a>
             </div>
         </div>
     );
