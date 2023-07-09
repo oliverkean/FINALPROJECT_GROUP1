@@ -1,6 +1,5 @@
 import ThreeColGrid from "../Layouts/ThreeColGrid";
 import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
 import BodyContent1 from "../Components/BodyContent1";
 
 import icon1 from '../Assets/images/icons8-education-100.png'
@@ -9,7 +8,7 @@ import icon3 from '../Assets/images/icons8-development-64.png'
 
 function LandingPage() {
     return(
-        <div>
+        <div className="container">
             {/* Nav */}
             <Navbar/>
             {/* Header */}
@@ -23,15 +22,12 @@ function LandingPage() {
             {/* Footer */}
 
             {/* Testing */}
-            <div className="container">
-                <ThreeColGrid
-                    col1={<BodyContent1 image={icon1} title="Education Opportunities" text="lorem ipsum dolor sit amet"/>}
-                    col2={<BodyContent1 image={icon2} title="Equitable Education" text="lorem ipsum dolor sit amet"/>}
-                    col3={<BodyContent1 image={icon3} title="Child Development" text="lorem ipsum dolor sit amet"/>}
-                />
-            </div>
-            <Footer/>
-
+            <ThreeColGrid 
+                col1={<BodyContent1 image={icon1} title="Title" text="lorem ipsum dolor sit amet"/>}
+                col2={<BodyContent1 image={icon2} title="Title" text="lorem ipsum dolor sit amet"/>}
+                col3={<BodyContent1 image={icon3} title="Title" text="lorem ipsum dolor sit amet"/>}
+            />
+            
         </div>
     );
 }
