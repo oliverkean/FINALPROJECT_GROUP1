@@ -1,6 +1,6 @@
 function ThreeColGrid({col1, col2, col3}) {
     return(
-
+        
         <div className = 'row'>
             <div className="col-sm-12 col-md-6 col-lg-4">
                 {col1}
@@ -12,7 +12,6 @@ function ThreeColGrid({col1, col2, col3}) {
                 {col3}
             </div>
         </div>
-
     );
 }
 
