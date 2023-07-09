@@ -85,6 +85,13 @@ function LandingPage() {
             </div>
             {/* Body Layout 4 */}
             <div className="container">
+                <Heading 
+                    text="Heading"
+                    size="1"
+                    weight="bold"
+                    
+                    align="left"
+                />  
                 <ThreeColGrid
                     col1={<Cards image={img1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>}
                     col2={<Cards image={img1} title="Equitable Education" text="Providing all learning resource"/>}
@@ -99,7 +106,13 @@ function LandingPage() {
             
             {/* Body Layout 5 */}
             <div className="container">
-                
+                <Heading 
+                    text="Heading"
+                    size="1"
+                    weight="bold"
+                    
+                    align="left"
+                />
                 <TwoColGrid>
                     <BodyContent3 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
                     <BodyContent3 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
