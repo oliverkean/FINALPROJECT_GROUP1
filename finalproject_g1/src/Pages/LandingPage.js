@@ -12,27 +12,58 @@ import icon3 from '../Assets/images/icons8-development-64.png'
 import img1 from '../Assets/images/pexels-maël-balland-13713058.jpg'
 import Heading from "../Components/Heading";
 import BodyContent3 from "../Components/BodyContent3";
+import TextContent from "../Components/TextContent";
+import ListGroup from '../Components/ListGroup';
 
 function LandingPage() {
+    const item = ['item1' ,'item2', 'item3']
     return(
         <div className="">
             {/* Nav */}
             <Navbar/>
-            {/* <Navbar/> */}
+
             {/* Header */}
+
             {/* Body Layout 1 */}
-            <div className="container"> 
+            <div className="container py-5 my-5"> 
+                <TextContent
+                    text="Why is Quality Education important?"
+                    size="2"
+                    weight="semibold"
+                    align="center"
+                />
+                <TextContent
+                    text="
+                        Quality Education serves as a catalyst for sustainable development and plays a pivotal role in shaping societies.
+                    "
+                    size="2"
+                    weight="normal"
+                    align="center"
+                />
                 <ThreeColGrid>
-                    <BodyContent1 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
-                    <BodyContent1 image={icon2} title="Equitable Education" text="Providing all learning resource"/>
-                    <BodyContent1 image={icon3} title="Child Development" text="Developing all skill capabilities"/>
+                    <BodyContent1 
+                        image={icon1} 
+                        title="Empowering Individuals" 
+                        text="Access to quality education empowers individuals by providing them with knowledge, skills, and tools necessary to lead fulfilling lives, make informed decisions, and contribute positively to their communities."
+                    />
+                    <BodyContent1 
+                        image={icon2} 
+                        title="Reducing Poverty and Inequality" 
+                        text="Education is a powerful tool in combating poverty and reducing inequality. It equips individuals with the skills to earn a decent living, opens up employment opportunities, and breaks the cycle of intergenerational poverty."
+                    />
+                    <BodyContent1 
+                        image={icon3} 
+                        title="Fostering Peace and Social Cohesion" 
+                        text="Education fosters understanding, tolerance, and respect among individuals from diverse backgrounds. It promotes peaceful coexistence, social cohesion, and a sense of global citizenship, laying the foundation for a more inclusive and harmonious world."
+                    />
                 </ThreeColGrid>
             </div>
+
             {/* Body Layout 2 */} 
             <div className="container">
                 <Heading 
-                    title="Equality vs Equity"
-                    text="The terms equity and equality are often used interchangeably in education, but it is important to understand the difference between them. While both have their benefits, equity should be the ultimate goal for educators when addressing issues faced by disadvantaged students. "
+                    title="Key Targets and Indicators"
+                    text="To track progress towards achieving Goal 4, the United Nations has identified key targets and indicators. Here are some important ones:"
                     size="1"
                     weight="bold"
                     
@@ -40,48 +71,39 @@ function LandingPage() {
                 />
                 <BodyContent2 
                     img={img1}
-                    title="Equality"
-                    text="Equality means treating everyone the same and providing equal rights, opportunities, and resources. However, equality may not address specific needs and challenges faced by individuals. "
+                    title="Ensure Free, Equitable, and Quality Primary and Secondary Education"
+                    text="Efforts should be made to provide free, inclusive, and quality primary and secondary education to all children, irrespective of their background or circumstances."
                     ordL={0}
                     ordR={0}
                 />
                 <BodyContent2 
                     img={img1}
-                    title="Equity"
-                    text="On the other hand, equity focuses on providing resources and support based on individual circumstances. Schools that prioritize equity understand their students' needs and provide tailored resources to help overcome their specific challenges."
+                    title="Promote Access to Affordable and Quality Technical, Vocational, and Higher Education"
+                    text="Access to affordable and quality technical, vocational, and higher education should be facilitated to equip individuals with the skills required for employment and entrepreneurship."
                     ordL={1}
+                    ordR={0}
+                />
+                <BodyContent2 
+                    img={img1}
+                    title="Enhance Youth and Adult Literacy"
+                    text="Efforts should be made to promote literacy and numeracy skills among youth and adults, empowering them to actively participate in society and the economy."
+                    ordL={0}
                     ordR={0}
                 />
             </div>
+
             {/* Body Layout 3 */}
             <div className="container">
                 <Heading 
-                    text="Heading"
+                    title="Challenges and Solutions"
+                    text="Achieving quality education for all is not without its challenges. Here are some common obstacles and potential solutions:"
                     size="1"
                     weight="bold"
                     
                     align="left"
                 />
-                <BodyContent2 
-                    img={img1}
-                    title="Title"
-                    text="Lorem impsum dolor sit amet."
-                    ordL={0}
-                    ordR={0}
-                />
-                <BodyContent2 
-                    img={img1}
-                    title="Title"
-                    text="Lorem impsum dolor sit amet."
-                    ordL={1}
-                    ordR={0}
-                />
-                <BodyContent2 
-                    img={img1}
-                    title="Title"
-                    text="Lorem impsum dolor sit amet."
-                    ordL={0}
-                    ordR={0}
+                <ListGroup
+                    items={item}
                 />
             </div>
             {/* Body Layout 4 */}

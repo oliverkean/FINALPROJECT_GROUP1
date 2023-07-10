@@ -8,10 +8,10 @@ function BodyContent2({img, title, text, ordL, ordR}) {
                     <img src={img} alt="Image" loading="lazy" className="img-fluid"/>
                 </div>
                 <div className={`col-sm-12 col-md-6 col-lg-6 order-lg-${ordR}`}>
-                    <div>
+                    <div className="my-3">
                         <span className="fs-2 fw-bold">{title}</span>
                     </div>
-                    <div>
+                    <div className="my-3">
                         <span className="fs-5 text-secondary">{text}</span>
                     </div>
                 </div>
