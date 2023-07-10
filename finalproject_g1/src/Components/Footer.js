@@ -3,18 +3,18 @@ function Footer() {
     <div className="container">
     <footer className="py-5">
         <div className="row">
-            <div className="col-lg-2 col-md-12">
+            <div className="col col-lg-3 col-md-6">
                 <br/><br/>
                 <i className="bi bi-apple"></i>LOGO
             </div>
 
-            <div className="col-2">
+            {/* <div className="col-2">
             </div>
             
             <div className="col-2">
-            </div>
+            </div> */}
 
-            <div className="col-2">
+            <div className="col col-lg-3 col-md-6">
                 <h5>Mobile App</h5>
                 <ul className="nav flex-column">
                 <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Features</a></li>
@@ -23,7 +23,7 @@ function Footer() {
                 </ul>
             </div>
 
-            <div className="col-2">
+            <div className="col col-lg-3 col-md-12">
                 <h5>Community</h5>
                 <ul className="nav flex-column">
                 <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Featured artists</a></li>
