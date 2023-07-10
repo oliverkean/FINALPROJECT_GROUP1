@@ -1,13 +1,11 @@
 function Cards({image, title, text}) {
     return(
-<<<<<<< HEAD
         <div class="card">
             <img src={image} class="card-img-top" alt="..."/>
             <div class="card-body">
                 <h5 class="card-title">{title}</h5>
                 <p class="card-text">{text}</p>
                 <a href="#" class="text-primary text-decoration-none">Learn More</a>
-=======
         <div className="col-12 col-sm-6 col-md-6 col-lg-4">
             {/* <div class="card">
                 <div class="card-header">
@@ -38,10 +36,7 @@ function Cards({image, title, text}) {
                     </li>
                     </ul>
                 </div>
->>>>>>> 0a7a167bd695c8922e57831f5e7de50824eba1ed
-            </div>
-
-            
+            </div>  
         </div>
         
     );
