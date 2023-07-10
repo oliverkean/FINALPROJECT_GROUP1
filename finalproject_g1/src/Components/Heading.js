@@ -1,8 +1,13 @@
-function Heading({text, size, weight, color, align}) {
+function Heading({title, text, size, weight, color, align}) {
   return (
     <>
-        <span className={`fs-${size} fw-${weight} text-${color} text-${align}`}>{text}</span>
+        <div>
+        <span className={`fs-${size} fw-${weight} text-${color} text-${align}`}>{title}</span>
+        </div>
         <hr/>
+        <div>
+        <p className={`fs-4 text-secondary text-${align}`}>{text}</p>
+        </div>
     </>
   )
 }

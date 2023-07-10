@@ -9,7 +9,7 @@ function BodyContent2({img, title, text, ordL, ordR}) {
                 </div>
                 <div className={`col-sm-12 col-md-6 col-lg-6 order-lg-${ordR}`}>
                     <div>
-                        <span className="fs-1 fw-bold">{title}</span>
+                        <span className="fs-2 fw-bold">{title}</span>
                     </div>
                     <div>
                         <span className="fs-5 text-secondary">{text}</span>

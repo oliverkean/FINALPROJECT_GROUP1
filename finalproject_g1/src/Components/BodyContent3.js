@@ -1,5 +1,3 @@
-import TwoColGrid from "../Layouts/TwoColGrid";
-
 function BodyContent3({image, title, text}) {
     return(
         <div className="col-sm-12 col-md-6 col-lg-6">

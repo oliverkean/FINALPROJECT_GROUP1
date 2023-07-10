@@ -31,8 +31,6 @@ function Cards({image, title, text}) {
                     </ul>
                 </div>
             </div>
-
-            
         </div>
         
     );

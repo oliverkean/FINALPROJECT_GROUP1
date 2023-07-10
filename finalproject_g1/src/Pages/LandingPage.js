@@ -31,7 +31,8 @@ function LandingPage() {
             {/* Body Layout 2 */} 
             <div className="container">
                 <Heading 
-                    text="Heading"
+                    title="Equality vs Equity"
+                    text="The terms equity and equality are often used interchangeably in education, but it is important to understand the difference between them. While both have their benefits, equity should be the ultimate goal for educators when addressing issues faced by disadvantaged students. "
                     size="1"
                     weight="bold"
                     
@@ -39,15 +40,15 @@ function LandingPage() {
                 />
                 <BodyContent2 
                     img={img1}
-                    title="Title"
-                    text="Lorem impsum dolor sit amet."
+                    title="Equality"
+                    text="Equality means treating everyone the same and providing equal rights, opportunities, and resources. However, equality may not address specific needs and challenges faced by individuals. "
                     ordL={0}
                     ordR={0}
                 />
                 <BodyContent2 
                     img={img1}
-                    title="Title"
-                    text="Lorem impsum dolor sit amet."
+                    title="Equity"
+                    text="On the other hand, equity focuses on providing resources and support based on individual circumstances. Schools that prioritize equity understand their students' needs and provide tailored resources to help overcome their specific challenges."
                     ordL={1}
                     ordR={0}
                 />
