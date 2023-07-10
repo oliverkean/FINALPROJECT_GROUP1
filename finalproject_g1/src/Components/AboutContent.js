@@ -1,6 +1,6 @@
 function AboutContent({image, title, text}) {
     return(
-        <div className="col mt-5 mx-3">
+        <div className="col mt-5">
             <div className="row d-flex justify-content-center align-items-center">
                 <div className="col col-lg-6 col-md-12">
                     <img style={{ width: '40vw', height: '100%' }} src={image} alt="icon" className="rounded"/>
