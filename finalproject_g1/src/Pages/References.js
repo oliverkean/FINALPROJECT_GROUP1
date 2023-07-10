@@ -4,7 +4,6 @@ function References() {
     return(
         <>
             <Navbar/>
-            hello from references
         </>
     );
 }
