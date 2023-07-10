@@ -1,6 +1,6 @@
 function Cards({image, title, text}) {
     return(
-        <div className="col-12 col-sm-6 col-md-6 col-lg-4">
+        <div className="col-12 col-sm-6 col-md-6 col-lg-4 my-3">
             {/* <div class="card">
                 <div class="card-header">
                     <img src={image} class="card-img-top" alt="..."/>
@@ -13,7 +13,7 @@ function Cards({image, title, text}) {
                     </div>
                 </div>
             </div> */}
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  style={{ overflow:'hidden', backgroundSize: 'cover', backgroundImage: `url("https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80")`}}>
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{ border: 'none', overflow:'hidden', backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundImage: `url(${(image)})` }}>
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
                     <ul class="d-flex list-unstyled mt-auto">
