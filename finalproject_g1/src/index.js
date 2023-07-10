@@ -25,6 +25,11 @@ const router = createBrowserRouter([
     path: '/references',
     element: <References/>,
   },
+  // learn more
+  {
+    path: '/learn-more',
+    element: <LearnMore/>,
+  },
 ]);
 
 

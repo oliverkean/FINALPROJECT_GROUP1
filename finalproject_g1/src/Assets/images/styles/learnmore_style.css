@@ -1,0 +1,56 @@
+body {
+    color: #ffffff;
+    background-color: #004643;
+    font-family: 'Montserrat, sans-serif';
+  }
+  
+  .learnmore-banner {
+    color: #abd1c6;
+  }
+  
+  .recent-relevant-articles p,
+  .recent-relevant-articles h1,
+  .recent-relevant-articles h2 {
+    color: #fffffe;
+  }
+  
+  .recent-relevant-articels h1,
+.recent-relevant-articels h2,
+.recent-relevant-articels p {
+  color: #fffffe;
+}
+
+  
+.btn {
+    background-color: #f9bc60;
+    color: #001e1d;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #abd1c6;
+    color: #001e1d;
+    border: #001e1d;
+  }
+  
+  
+  .card-text{
+    color: #0f3433;
+  }
+
+  .col-md-6.mb-4 h2.card-text,
+.col-md-6.mb-4 p.card-text {
+  color: #004643;
+}
+
+.card{
+    color: #ff4c06;
+}
+
+.custom-card-text {
+    color: #004643
+  }
+  
+.mysection {
+  background-color: #070707;
+}
