@@ -1,6 +1,6 @@
 function Cards({image, title, text}) {
     return(
-        <div className="col-12 col-sm-6 col-md-6 col-lg-4">
+        <div className="col-12 col-sm-6 col-md-6 col-lg-4 g-3">
             {/* <div class="card">
                 <div class="card-header">
                     <img src={image} class="card-img-top" alt="..."/>

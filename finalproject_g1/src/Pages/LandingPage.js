@@ -56,7 +56,8 @@ function LandingPage() {
             {/* Body Layout 3 */}
             <div className="container">
                 <Heading 
-                    text="Heading"
+                    title="Challenges Face by Students"
+                    text="The terms equity and equality are often used interchangeably in education, but it is important to understand the difference between them. While both have their benefits, equity should be the ultimate goal for educators when addressing issues faced by disadvantaged students. "
                     size="1"
                     weight="bold"
                     
