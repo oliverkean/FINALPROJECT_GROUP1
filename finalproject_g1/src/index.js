@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
 
 // Pages
@@ -25,12 +25,6 @@ const router = createBrowserRouter([
     path: '/references',
     element: <References/>,
   },
-  //Learn more route
-  {
-    path: "/learn-more",
-    element: <LearnMore/>,
-  },
-
 ]);
 
 
