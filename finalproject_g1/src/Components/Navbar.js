@@ -22,7 +22,7 @@ function Navbar() {
                         </li>
 
                         <li class="nav-item">
-                            <Link to={`/`}>
+                            <Link to={`/learn-more`}>
                                 <Button color="danger" text={"Learn more"}/>
                             </Link>
                         </li>

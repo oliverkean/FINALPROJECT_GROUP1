@@ -15,18 +15,18 @@ import BodyContent3 from "../Components/BodyContent3";
 
 function LandingPage() {
     return(
-        <div>
+        <div className="">
             {/* Nav */}
+            <Navbar/>
             {/* <Navbar/> */}
             {/* Header */}
             {/* Body Layout 1 */}
             <div className="container"> 
-                
-                <ThreeColGrid
-                    col1={<BodyContent1 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>}
-                    col2={<BodyContent1 image={icon2} title="Equitable Education" text="Providing all learning resource"/>}
-                    col3={<BodyContent1 image={icon3} title="Child Development" text="Developing all skill capabilities"/>}
-                />
+                <ThreeColGrid>
+                    <BodyContent1 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
+                    <BodyContent1 image={icon2} title="Equitable Education" text="Providing all learning resource"/>
+                    <BodyContent1 image={icon3} title="Child Development" text="Developing all skill capabilities"/>
+                </ThreeColGrid>
             </div>
             {/* Body Layout 2 */} 
             <div className="container">
@@ -92,16 +92,14 @@ function LandingPage() {
                     
                     align="left"
                 />  
-                <ThreeColGrid
-                    col1={<Cards image={img1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>}
-                    col2={<Cards image={img1} title="Equitable Education" text="Providing all learning resource"/>}
-                    col3={<Cards image={img1} title="Child Development" text="Developing all skill capabilities"/>}
-                />
-                <ThreeColGrid
-                    col1={<Cards image={img1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>}
-                    col2={<Cards image={img1} title="Equitable Education" text="Providing all learning resource"/>}
-                    col3={<Cards image={img1} title="Child Development" text="Developing all skill capabilities"/>}
-                />
+                <ThreeColGrid>
+                    <Cards image={img1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
+                    <Cards image={img1} title="Equitable Education" text="Providing all learning resource"/>
+                    <Cards image={img1} title="Child Development" text="Developing all skill capabilities"/>
+                    <Cards image={img1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
+                    <Cards image={img1} title="Equitable Education" text="Providing all learning resource"/>
+                    <Cards image={img1} title="Child Development" text="Developing all skill capabilities"/>
+                </ThreeColGrid>
             </div>
             
             {/* Body Layout 5 */}
