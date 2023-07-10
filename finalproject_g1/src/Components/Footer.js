@@ -1,9 +1,9 @@
 function Footer() {
   return (
     <div className="container">
-        <footer className="py-5">
-            <div className="row">
-                <div className="col col-lg-3 col-md-6">
+        <footer className="py-5 text-md-start text-center">
+            <div className="row g-4">
+                <div className="col-12 col-md-6">
                     <br/><br/>
                     <i className="bi bi-apple"></i>LOGO
                 </div>
@@ -14,7 +14,7 @@ function Footer() {
                 <div className="col-2">
                 </div> */}
 
-                <div className="col col-lg-3 col-md-6">
+                <div className="col-12 col-md-2">
                     <h5>Mobile App</h5>
                     <ul className="nav flex-column">
                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Features</a></li>
@@ -23,7 +23,7 @@ function Footer() {
                     </ul>
                 </div>
 
-                <div className="col col-lg-3 col-md-12">
+                <div className="col-12 col-md-2">
                     <h5>Community</h5>
                     <ul className="nav flex-column">
                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Featured artists</a></li>
@@ -32,7 +32,7 @@ function Footer() {
                     </ul>
                 </div>
 
-                <div className="col-2">
+                <div className="col-12 col-md-2">
                     <h5>Company</h5>
                     <ul className="nav flex-column">
                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">About us</a></li>
