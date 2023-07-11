@@ -5,7 +5,8 @@ function Footer() {
             <div className="row g-4">
                 <div className="col-12 col-md-6">
                     <br/><br/>
-                    <i className="bi bi-apple"></i>LOGO
+                    <img alt="Logo" src="https://img.favpng.com/20/11/21/sustainable-development-goals-education-sustainability-png-favpng-3K0Yumrj02EFKFJW51Ar2d3yn.jpg" width="40" height="40" class="d-inline-block align-text-middle me-3"/>
+                    <span className="fw-bold">Quality Education </span>            
                 </div>
 
                 {/* <div className="col-2">
