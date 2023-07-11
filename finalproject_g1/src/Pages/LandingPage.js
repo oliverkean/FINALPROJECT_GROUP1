@@ -14,6 +14,7 @@ import Heading from "../Components/Heading";
 import BodyContent3 from "../Components/BodyContent3";
 import TextContent from "../Components/TextContent";
 import ListGroup from '../Components/ListGroup';
+import Header from "../Components/Header";
 
 function LandingPage() {
     const item = ['item1' ,'item2', 'item3']
@@ -23,6 +24,9 @@ function LandingPage() {
             <Navbar/>
 
             {/* Header */}
+            <div className="container py-5 my-5"> 
+                <Header image={img1}/>
+            </div>
 
             {/* Body Layout 1 */}
             <div className="container py-5 my-5"> 
@@ -30,7 +34,7 @@ function LandingPage() {
                     text="Why is Quality Education important?"
                     size="2"
                     weight="semibold"
-                    align="center"
+                    align="left"
                 />
                 <TextContent
                     text="
@@ -38,9 +42,9 @@ function LandingPage() {
                     "
                     size="2"
                     weight="normal"
-                    align="center"
+                    align="left"
                 />
-                <ThreeColGrid>
+                <ThreeColGrid bg= 'secondary'>
                     <BodyContent1 
                         image={icon1} 
                         title="Empowering Individuals" 
@@ -60,7 +64,7 @@ function LandingPage() {
             </div>
 
             {/* Body Layout 2 */} 
-            <div className="container">
+            <div className="container py-5 my-5">
                 <Heading 
                     title="Key Targets and Indicators"
                     text="To track progress towards achieving Goal 4, the United Nations has identified key targets and indicators. Here are some important ones:"
@@ -93,7 +97,7 @@ function LandingPage() {
             </div>
 
             {/* Body Layout 3 */}
-            <div className="container">
+            <div className="container py-5 my-5">
                 <Heading 
                     title="Challenges and Solutions"
                     text="Achieving quality education for all is not without its challenges. Here are some common obstacles and potential solutions:"
@@ -107,7 +111,28 @@ function LandingPage() {
                 />
             </div>
             {/* Body Layout 4 */}
-            <div className="container">
+            <div className="container py-5 my-5">
+                <Heading 
+                    title="Title"
+                    text="Heading"
+                    size="1"
+                    weight="bold"
+                    
+                    align="left"
+                />
+                <TwoColGrid>
+                    <BodyContent3 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
+                    <BodyContent3 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
+                </TwoColGrid>
+                <TwoColGrid>
+                    <BodyContent3 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
+                    <BodyContent3 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
+                </TwoColGrid>
+            </div>
+            
+            {/* Body Layout 5 */}
+            
+            <div className="container py-5 my-5">
                 <Heading 
                     text="Heading"
                     size="1"
@@ -123,25 +148,6 @@ function LandingPage() {
                     <Cards image={img1} title="Equitable Education" text="Providing all learning resource"/>
                     <Cards image={img1} title="Child Development" text="Developing all skill capabilities"/>
                 </ThreeColGrid>
-            </div>
-            
-            {/* Body Layout 5 */}
-            <div className="container">
-                <Heading 
-                    text="Heading"
-                    size="1"
-                    weight="bold"
-                    
-                    align="left"
-                />
-                <TwoColGrid>
-                    <BodyContent3 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
-                    <BodyContent3 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
-                </TwoColGrid>
-                <TwoColGrid>
-                    <BodyContent3 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
-                    <BodyContent3 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
-                </TwoColGrid>
             </div>
             {/* Body Layout 6 */}
             {/* Body Layout 7 */}
