@@ -1,10 +1,6 @@
 import ThreeColGrid from "../Layouts/ThreeColGrid";
 import Navbar from "../Components/Navbar";
-<<<<<<< HEAD
-=======
-import Footer from "../Components/Footer";
 import Cards from "../Components/Cards";
->>>>>>> c3e59b53ad1906e05d552ea3a6b6732047e6265d
 import BodyContent1 from "../Components/BodyContent1";
 
 import icon1 from '../Assets/images/icons8-education-100.png'
@@ -27,14 +23,6 @@ function LandingPage() {
             {/* Footer */}
 
             {/* Testing */}
-<<<<<<< HEAD
-            <ThreeColGrid 
-                col1={<BodyContent1 image={icon1} title="Title" text="lorem ipsum dolor sit amet"/>}
-                col2={<BodyContent1 image={icon2} title="Title" text="lorem ipsum dolor sit amet"/>}
-                col3={<BodyContent1 image={icon3} title="Title" text="lorem ipsum dolor sit amet"/>}
-            />
-            
-=======
             {/*testing olibs, suggestion put it into section*/}
             <div className="container"> 
                 <ThreeColGrid
@@ -51,9 +39,7 @@ function LandingPage() {
                         col3={<Cards image={icon3} title="Child Development" text="Developing all skill capabilities"/>}
                     />
             </div>
-            <Footer/>
 
->>>>>>> c3e59b53ad1906e05d552ea3a6b6732047e6265d
         </div>
     );
 }

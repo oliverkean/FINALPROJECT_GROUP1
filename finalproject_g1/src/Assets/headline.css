@@ -1,0 +1,15 @@
+.background-img-cus{
+    background-image: url('https://www.unesco.org/sites/default/files/styles/banner_desktop/public/2022-06/Education%20transforms%20lives.webp?h=f2fcf546&itok=zOM4gG0k');
+    height: 600px;
+}
+.position-below{
+    position: absolute;
+    top: 60%;
+}
+.mask-bgcolor{
+    background-color: rgba(224, 56, 56, 0.151);
+}
+.subheading-p{
+    padding: 0 10% 0 10%;
+    font-size: 1em;
+}

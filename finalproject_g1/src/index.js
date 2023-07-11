@@ -11,6 +11,7 @@ import reportWebVitals from './reportWebVitals';
 // Pages
 import LandingPage from "./Pages/LandingPage";
 import References from "./Pages/References";
+import Headline from './Components/Headline';
 
 // routes
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: '/references',
     element: <References/>,
+  },
+  {
+    path: '/headline',
+    element: <Headline/>,
   },
 ]);
 
