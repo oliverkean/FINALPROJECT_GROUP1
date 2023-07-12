@@ -6,7 +6,7 @@ function Heading({title, text, size, weight, color, align}) {
         </div>
         <hr/>
         <div>
-          <p className={`fs-4 text-secondary text-${align}`}>{text}</p>
+          <p className={`fs-5 text-secondary text-${align}`}>{text}</p>
         </div>
     </>
   )

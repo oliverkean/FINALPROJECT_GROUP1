@@ -1,7 +1,7 @@
 function BodyContent3({image, title, text}) {
     return(
         <div className="col-sm-12 col-md-6 col-lg-6">
-            <div className="row align-items-center text-center">
+            <div className="row align-items-center text-center px-5">
                 <div className="col-sm-4 col-md-4 col-lg-12">
                     <img style={{ width: '64px', height: '64px' }} src={image} alt="icon"/>
                 </div>
