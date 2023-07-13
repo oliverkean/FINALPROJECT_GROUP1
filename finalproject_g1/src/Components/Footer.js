@@ -5,7 +5,7 @@ function Footer() {
             <div className="row g-4">
                 <div className="col-12 col-md-6">
                     <br/><br/>
-                    <i className="bi bi-apple"></i>LOGO
+                    <i className="bi bi-apple"></i>
                 </div>
 
                 {/* <div className="col-2">

@@ -9,6 +9,27 @@ code {
     monospace;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #a79e9e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #DC3545;
+}
+
 .navbar-toggler-icon,
 .navbar-toggler,
 .navbar-toggler-icon:focus{
