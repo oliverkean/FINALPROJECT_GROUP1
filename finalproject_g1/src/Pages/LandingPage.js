@@ -13,6 +13,12 @@ import Header from "../Components/Header";
 // images
 import icon1 from '../Assets/images/icons8-education-100.png'
 import img1 from '../Assets/images/pexels-maël-balland-13713058.jpg'
+import freeeducation from '../Assets/images/freeeducation.jpg'
+import qualitytechnical from '../Assets/images/qualitytechnical.jpg'
+import literacy from '../Assets/images/literacy.png'
+import newart1 from '../Assets/images/newsart1.jpg'
+import newart2 from '../Assets/images/newsart2.jpg'
+import newart3 from '../Assets/images/newsart3.jpg'
 
 
 import { bodyContent1 } from "../content/landingContent";
@@ -52,21 +58,21 @@ function LandingPage() {
                     
                 />
                 <BodyContent2 
-                    img={img1}
+                    img={freeeducation}
                     title="Ensure Free, Equitable, and Quality Primary and Secondary Education"
                     text="Efforts should be made to provide free, inclusive, and quality primary and secondary education to all children, irrespective of their background or circumstances."
                     ordL={0}
                     ordR={0}
                 />
                 <BodyContent2 
-                    img={img1}
+                    img={qualitytechnical}
                     title="Promote Access to Affordable and Quality Technical, Vocational, and Higher Education"
                     text="Access to affordable and quality technical, vocational, and higher education should be facilitated to equip individuals with the skills required for employment and entrepreneurship."
                     ordL={1}
                     ordR={0}
                 />
                 <BodyContent2 
-                    img={img1}
+                    img={literacy}
                     title="Enhance Youth and Adult Literacy"
                     text="Efforts should be made to promote literacy and numeracy skills among youth and adults, empowering them to actively participate in society and the economy."
                     ordL={0}
@@ -133,9 +139,9 @@ function LandingPage() {
                     align="left"
                 />  
                 <ThreeColGrid>
-                    <Cards image={img1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
-                    <Cards image={img1} title="Equitable Education" text="Providing all learning resource"/>
-                    <Cards image={img1} title="Child Development" text="Developing all skill capabilities"/>
+                    <Cards image={newart1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
+                    <Cards image={newart2} title="Equitable Education" text="Providing all learning resource"/>
+                    <Cards image={newart3} title="Child Development" text="Developing all skill capabilities"/>
                 </ThreeColGrid>
             </div>
             <Footer/>
