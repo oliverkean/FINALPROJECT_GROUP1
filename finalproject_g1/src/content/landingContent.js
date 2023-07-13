@@ -37,3 +37,36 @@ export const bodyContent2 = [
         text: "Education fosters understanding, tolerance, and respect among individuals from diverse backgrounds. It promotes peaceful coexistence, social cohesion, and a sense of global citizenship, laying the foundation for a more inclusive and harmonious world."
     }
 ]
+
+export const accordionContent1 = [
+    {
+      title: "Images",
+      links: [
+        { text: "Pexels.com", url: "https://www.pexels.com/" },
+      ]
+    },
+    {
+        title: "Icons",
+        links: [
+          { text: "Link 3", url: "https://example.com/link1" },
+          { text: "Link 4", url: "https://example.com/link2" },
+        ]
+      },
+      {
+        title: "Content",
+        links: [
+          { text: "UN Sustainable Development Goal #4", url: "https://sdgs.un.org/goals/goal4" },
+          { text: "Related Topic", url: "https://sdgs.un.org/topics/education" },
+          { text: "Related Article", url: "https://sdgs.un.org/news/higher-education-sustainability-initiative-discusses-transformation-higher-education-result" },
+        ]
+      },
+      {
+        title: "Layouts and Design",
+        links: [
+          { text: "Bootstrap 5.3", url: "https://getbootstrap.com/docs/5.3" },
+          { text: "Bootstrap Examples", url: "https://getbootstrap.com/docs/5.3/examples/" },
+          { text: "Animate on Scroll Library", url: "https://michalsnik.github.io/aos/" },
+          { text: "Chat GPT", url: "https://chat.openai.com/" },
+        ]
+      }
+];

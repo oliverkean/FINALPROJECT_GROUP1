@@ -2,21 +2,13 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import Cards from "../Components/Cards";
 import ThreeColGrid from "../Layouts/ThreeColGrid";
-import TwoColGrid from "../Layouts/TwoColGrid";
-import BodyContent1 from "../Components/BodyContent1";
-import BodyContent2 from "../Components/BodyContent2";
 import Heading from "../Components/Heading";
-import BodyContent3 from "../Components/BodyContent3";
 import Header from "../Components/Header";
 
 
 // images
-import icon1 from '../Assets/images/icons8-education-100.png'
 import img1 from '../Assets/images/pexels-maël-balland-13713058.jpg'
 
-
-import { bodyContent1 } from "../content/landingContent";
-import Jumbotron from "../Components/Jumbotron";
 import BodyContent4 from "../Components/BodyContent4";
 
 
@@ -58,6 +50,7 @@ function LearnMore() {
                     <Cards image={img1} title="Child Development" text="Developing all skill capabilities"/>
                 </ThreeColGrid>
             </div>
+            <Footer/>
         </>
     );
 }

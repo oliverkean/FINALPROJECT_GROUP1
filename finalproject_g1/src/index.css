@@ -8,6 +8,11 @@ code {
     monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* .navbar-toggler-icon,
 .navbar-toggler,
 .navbar-toggler-icon:focus{
