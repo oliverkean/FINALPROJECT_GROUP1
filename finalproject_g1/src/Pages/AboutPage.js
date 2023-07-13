@@ -20,7 +20,7 @@ function About() {
                                 title="MISSION"
                                 text="To promote equitable access to knowledge and skills for all individuals, regardless of their background or circumstances. We strive to create inclusive learning environments where individuals can develop not only academic proficiency but also essential life skills, critical thinking abilities, and a strong sense of social responsibility. Through our collective efforts, we aim to empower learners, foster curiosity, and inspire a lifelong love for learning."
                                 text_color={'white'}
-                    />
+                            />
                 </div>
             </div>
             <Footer/>
