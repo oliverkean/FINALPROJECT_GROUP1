@@ -19,6 +19,12 @@ import literacy from '../Assets/images/literacy.png'
 import newart1 from '../Assets/images/newsart1.jpg'
 import newart2 from '../Assets/images/newsart2.jpg'
 import newart3 from '../Assets/images/newsart3.jpg'
+import schoolicon from '../Assets/images/icons8-school-100.png'
+import equityicon from '../Assets/images/icons8-equity-security-100.png'
+import teachericon from '../Assets/images/icons8-teacher-100.png'
+import policyicon from '../Assets/images/icons8-policy-100.png'
+import trainingicon from '../Assets/images/icons8-training-100.png'
+import savingsicon from '../Assets/images/icons8-euro-money-100.png'
 
 
 import { bodyContent1 } from "../content/landingContent";
@@ -92,34 +98,34 @@ function LandingPage() {
                 />
                 <TwoColGrid>
                     <BodyContent3 
-                        image={icon1} 
+                        image={schoolicon} 
                         title="Access and Equity" 
                         text="Ensuring equal access to education for all individuals, regardless of their background or location."
                     />
                     <BodyContent3 
-                        image={icon1} 
+                        image={teachericon} 
                         title="Teacher Shortage and Quality" 
                         text="Overcoming the shortage of qualified teachers and ensuring their effectiveness in delivering quality education."
                     />
                     <BodyContent3 
-                        image={icon1} 
+                        image={equityicon} 
                         title="Education Financing" 
                         text="Allocating sufficient funds for education to provide necessary resources and infrastructure."
                     />
                 </TwoColGrid>
                 <TwoColGrid>
                     <BodyContent3 
-                        image={icon1} 
+                        image={policyicon} 
                         title="Policy and Legal Frameworks" 
                         text="Implementing inclusive policies and laws that prioritize equitable access to education."
                     />
                     <BodyContent3 
-                        image={icon1} 
+                        image={trainingicon} 
                         title="Teacher Training and Support" 
                         text=" Investing in comprehensive teacher training programs and providing ongoing support for professional development."
                     />
                     <BodyContent3 
-                        image={icon1} 
+                        image={savingsicon} 
                         title="Increased Education Funding" 
                         text="Prioritizing increased investment in education through larger budget allocations and innovative financing mechanisms."/>
                 </TwoColGrid>
