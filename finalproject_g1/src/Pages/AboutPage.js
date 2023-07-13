@@ -1,10 +1,6 @@
 import AboutContent from "../Components/AboutContent";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
-import BodyContent2 from "../Components/BodyContent2";
-import img1 from '../Assets/images/pexels-maël-balland-13713058.jpg'
-import ThreeColGrid from "../Layouts/ThreeColGrid";
-import TwoColGrid from "../Layouts/TwoColGrid";
 
 //https://www.unoosa.org/oosa/en/ourwork/space4sdgs/sdg4.html link for references
 function About() {
@@ -24,28 +20,22 @@ function About() {
                 </div>
             </div>
 
-            <div className="container-fluid mb-5">
-                
-                <div className="container">
+            <div className="container mb-5">
+
                     <AboutContent
                             title="Sustainable Development Goal 4"
                             text_color={'dark'}
                             title_color={'dark'}
                         />
 
-                    <div className="row">
+                    <div className="row d-flex justify-content-center align-items-center text-center text-md-start g-4">
                         <div className="col-12 col-md-6">
-                            <img src={img1} alt="Image" className="img-fluid shadow-lg rounded"/>
+                            <img src="https://cdn-images-1.medium.com/max/480/1*BKBolU2eft8g3iiQt7ZcsA.jpeg" className="shadow-lg rounded h-75 w-75"/>
                         </div>
-
                         <div className="col-12 col-md-6">
-                            <div>
-                                <p className="fs-5 text-secondary">Aims at ensuring inclusive and equitable quality education and promote lifelong learning opportunities for all. This goal ensures that all girls and boys complete free primary and secondary schooling by 2030. This goal ensures that all girls and boys complete free primary and secondary schooling by 2030. It also aims to provide equal access to affordable vocational training, to eliminate gender and wealth disparities and achieve universal access to a quality higher education.</p>
-                            </div>
+                            <p className="fs-5 text-secondary">Aims at ensuring inclusive and equitable quality education and promote lifelong learning opportunities for all. This goal ensures that all girls and boys complete free primary and secondary schooling by 2030. This goal ensures that all girls and boys complete free primary and secondary schooling by 2030. It also aims to provide equal access to affordable vocational training, to eliminate gender and wealth disparities and achieve universal access to a quality higher education.</p>
                         </div>
                     </div>
-                </div>
-
             </div>
             <Footer/>
             
