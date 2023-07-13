@@ -28,7 +28,7 @@ function LandingPage() {
             {/* Header */}
             <div className="container" >
                 <Header 
-                    title="Quality Education"
+                    title="UN Sustainable Development Goal #4: Quality Education"
                     text="Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"
                 />
             </div>

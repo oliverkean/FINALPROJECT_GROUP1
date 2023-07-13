@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-function Heading({title, text, size, weight, color, align}) {
+function Heading({title, text, size, weight, align}) {
   useEffect(() => {
     AOS.init({
         duration: 800,
@@ -13,7 +13,7 @@ function Heading({title, text, size, weight, color, align}) {
   return (
     <div data-aos="fade-right">
         <div>
-          <span className={`fs-${size} fw-${weight} text-${color} text-${align}`}>{title}</span>
+          <span className={`fs-${size} fw-${weight} text-danger text-${align}`}>{title}</span>
         </div>
         <hr/>
         <div>

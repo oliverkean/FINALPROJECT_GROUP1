@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.my-custom-color {
+  color: #ff0000; /* Red text color */
+  background-color: #00ff00; /* Green background color */
+}
 
 /* .navbar-toggler-icon,
 .navbar-toggler,

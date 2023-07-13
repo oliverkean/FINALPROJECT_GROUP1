@@ -18,7 +18,7 @@ function BodyContent3({image, title, text}) {
                     <img className="img-fluid" style={{ width: '64px', height: '64px' }} src={image} alt="icon"/>
                 </div>
                 <div className="col-9 col-sm-3 col-md-3 col-lg-12 my-1 my-lg-0">
-                    <span className="fs-5 fw-bold">{title}</span>
+                    <span className="fs-5 fw-bold text-danger">{title}</span>
                 </div>
                 <div className="col-12 col-sm-6 col-md-6 col-lg-12 my-1 my-lg-0">
                     <span className="fs-6 text-secondary">{text}</span>

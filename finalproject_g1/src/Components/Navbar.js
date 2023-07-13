@@ -23,11 +23,11 @@ export default function Navbar() {
                             <Link class="nav-link" to={`/references`}>References</Link>
                         </li>
                         <li class="nav-item d-block d-lg-none">
-                            <Link class="btn btn-primary" to={`/learn-more`}>Learn More</Link>
+                            <Link class="btn btn-danger" to={`/learn-more`}>Learn More</Link>
                         </li>
                     </ul>
                 </div>
-                <Link class="btn btn-primary d-none d-lg-block" to={`/learn-more`}>Learn More</Link>
+                <Link class="btn btn-danger d-none d-lg-block" to={`/learn-more`}>Learn More</Link>
             </div>
         </nav>
     );

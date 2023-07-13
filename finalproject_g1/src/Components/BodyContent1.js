@@ -21,12 +21,12 @@ function BodyContent1({content}) {
                                 <img className="img-fluid" src={content.image} alt="icon"/>
                             </div>
                             <div className="col-12 col-md-9 col-lg-9 col-sm-12 my-lg-3">
-                                <span className="fs-5 fw-bold">{content.title}</span>
+                                <span className="fs-5 fw-bold text-danger">{content.title}</span>
                             </div>
                         </div>
                     </div>
                     <div className="col-sm-7 col-md-6 col-lg-12 my-md-3 my-sm-3 my-3 text-center text-sm-start" data-aos="fade-left">
-                        <span className="fs-6 text-white">{content.text}</span>
+                        <span className="fs-6 text-white fw-semibold">{content.text}</span>
                     </div>
                 </div>
             </div>

@@ -12,12 +12,12 @@ export default function Jumbotron() {
         });
       }, [])
     return(
-        <div class="p-5 text-center bg-dark rounded-3 text-white" data-aos="fade-up">
-            <h1 class=" text-white">More information about Quality Education</h1>
-            <p class="lead">
+        <div class="p-5 text-center bg-dark rounded-3" data-aos="fade-up">
+            <h1 class=" text-danger">More information about Quality Education</h1>
+            <p class="lead text-white fw-semibold">
             Click the button to learn more about the 4th goal of the United Nations Sustainable Development Goals
             </p>
-            <Link to={`/learn-more`} class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Learn More</Link>
+            <Link to={`/learn-more`} class="btn btn-danger btn-lg px-4 me-md-2 fw-bold">Learn More</Link>
         </div>
     );
 }
