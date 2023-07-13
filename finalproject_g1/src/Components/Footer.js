@@ -5,7 +5,8 @@ function Footer() {
             <div className="row g-4">
                 <div className="col-12 col-md-6">
                     <br/><br/>
-                    <i className="bi bi-apple"></i>
+                    <img alt="Logo" src="https://marketplace.canva.cn/8cjhM/MAEpYJ8cjhM/1/tl/canva-MAEpYJ8cjhM.png" width="20" height="20" class="d-inline-block align-text-middle me-3"/>
+                    Quality Education
                 </div>
 
                 {/* <div className="col-2">
