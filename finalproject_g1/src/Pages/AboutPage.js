@@ -6,6 +6,7 @@ import img1 from '../Assets/images/pexels-maël-balland-13713058.jpg'
 import ThreeColGrid from "../Layouts/ThreeColGrid";
 import TwoColGrid from "../Layouts/TwoColGrid";
 
+//https://www.unoosa.org/oosa/en/ourwork/space4sdgs/sdg4.html link for references
 function About() {
     return(
         <>
