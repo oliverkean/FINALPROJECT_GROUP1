@@ -5,34 +5,36 @@ import ThreeColGrid from "../Layouts/ThreeColGrid";
 import TwoColGrid from "../Layouts/TwoColGrid";
 import BodyContent1 from "../Components/BodyContent1";
 import BodyContent2 from "../Components/BodyContent2";
-
-import icon1 from '../Assets/images/icons8-education-100.png'
-
-import img1 from '../Assets/images/pexels-maël-balland-13713058.jpg'
 import Heading from "../Components/Heading";
 import BodyContent3 from "../Components/BodyContent3";
-import ListGroup from '../Components/ListGroup';
 import Header from "../Components/Header";
-import { Link } from "react-router-dom";
+
+
+// images
+import icon1 from '../Assets/images/icons8-education-100.png'
+import img1 from '../Assets/images/pexels-maël-balland-13713058.jpg'
+
 
 import { bodyContent1 } from "../content/landingContent";
+import Jumbotron from "../Components/Jumbotron";
+
 
 function LandingPage() {
-    const item = ['item1' ,'item2', 'item3']
     return(
-        <div className="">
+        <div className="contianer">
             {/* Nav */}
             <Navbar/>
 
             {/* Header */}
-            <div className="container">
+            <div className="container" >
                 <Header 
                     title="Quality Education"
-                    text="Why is Quality Education important? Quality Education serves as a catalyst for sustainable development and plays a pivotal role in shaping societies."
+                    text="Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"
                 />
             </div>
             {/* Body Layout 1 */}
-            <div className="container px-5 py-3 my-5 rounded bg-dark text-white"> 
+            
+            <div className="container px-5 py-3 my-5 rounded bg-dark text-white" data-aos="fade-up"> 
                 <ThreeColGrid>
                     <BodyContent1 content={bodyContent1}/>
                 </ThreeColGrid>
@@ -47,6 +49,7 @@ function LandingPage() {
                     weight="bold"
                     
                     align="left"
+                    
                 />
                 <BodyContent2 
                     img={img1}
@@ -72,7 +75,7 @@ function LandingPage() {
             </div>
 
             {/* Body Layout 3 */}
-            <div className="container">
+            <div className="container" >
                 <Heading 
                     title="Challenges and solutions"
                     text="Achieving quality education for all is not without its challenges. Here are some common obstacles and potential solutions:"
@@ -117,13 +120,7 @@ function LandingPage() {
                 
             </div>
             <div className="container py-5 my-5">
-                <div class="p-5 text-center bg-dark rounded-3 text-white">
-                    <h1 class=" text-white">Basic jumbotron</h1>
-                    <p class="lead">
-                    This is a simple Bootstrap jumbotron that sits within a <code>.container</code>, recreated with built-in utility classes.
-                    </p>
-                    <Link to={`learn-more`} class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Learn More</Link>
-                </div>
+                <Jumbotron/>
             </div>
             {/* Body Layout 4 */}
             <div className="container">

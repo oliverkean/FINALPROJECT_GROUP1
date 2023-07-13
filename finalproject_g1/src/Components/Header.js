@@ -1,6 +1,16 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+// AOS
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Header({title, text, image}) {
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            disable: 'mobile'
+        });
+      }, [])
     return(
         <>
             <div class="row pb-0 pe-lg-0 pt-lg-5 align-items-center">
@@ -11,7 +21,7 @@ export default function Header({title, text, image}) {
                         <Link to={`/learn-more`} class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Learn More</Link>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12 offset-lg-1 p-0 overflow-hidden ">
+                <div class="col-lg-4 col-12 offset-lg-1 p-0 overflow-hidden " data-aos="fade-left">
                     <img class="rounded-lg-3" src="https://images.pexels.com/photos/3755511/pexels-photo-3755511.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" width="720"/>
                 </div>
             </div>

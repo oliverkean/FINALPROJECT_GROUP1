@@ -1,18 +1,17 @@
+import { useEffect } from "react";
+// AOS
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function Cards({image, title, text}) {
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            disable: 'mobile'
+        });
+      }, [])
     return(
-        <div className="col-12 col-sm-6 col-md-6 col-lg-4 my-3">
-            {/* <div class="card">
-                <div class="card-header">
-                    <img src={image} class="card-img-top" alt="..."/>
-                </div>
-                <div class="card-body">
-                    <div class="card-body">
-                        <h5 class="card-title">{title}</h5>
-                        <p class="card-text">{text}</p>
-                        <a href="#" class="text-primary">Learn More</a>
-                    </div>
-                </div>
-            </div> */}
+        <div className="col-12 col-sm-6 col-md-6 col-lg-4 my-3"  data-aos="fade-up">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{ border: 'none', overflow:'hidden', backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundImage: `url(${(image)})` }}>
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
