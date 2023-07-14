@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import TwoColGrid from "../Layouts/TwoColGrid";
 import { useEffect } from "react";
 // AOS
@@ -31,3 +32,8 @@ function BodyContent2({img, title, text, ordL, ordR}) {
 }
 
 export default BodyContent2
+=======
+function BodyContent2() {
+    
+}
+>>>>>>> origin/main
