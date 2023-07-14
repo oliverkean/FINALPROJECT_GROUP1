@@ -5,7 +5,7 @@ export default function Navbar() {
         <nav class="container navbar navbar-expand-lg">
             <div class="container-fluid">
                 <Link class="navbar-brand fw-bold" to={`/`}>
-                    <img className="img-fluid" alt="Logo" src="https://img.favpng.com/20/11/21/sustainable-development-goals-education-sustainability-png-favpng-3K0Yumrj02EFKFJW51Ar2d3yn.jpg" width="40" height="40" class="d-inline-block align-text-middle me-3"/>
+                    <img className="img-fluid" alt="Logo" src="https://marketplace.canva.cn/8cjhM/MAEpYJ8cjhM/1/tl/canva-MAEpYJ8cjhM.png" width="40" height="40" class="d-inline-block align-text-middle me-3"/>
                     <span className="mx-3">QEd</span>
                 </Link> 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -18,11 +18,39 @@ html {
   text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, 1px 1px 0 #000;
 }
 
-/* .navbar-toggler-icon,
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #a79e9e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #DC3545;
+}
+
+.navbar-toggler-icon,
 .navbar-toggler,
 .navbar-toggler-icon:focus{
   outline: none !important;
   border: none !important;
   box-shadow: none !important;
+} 
 
-} */
+.card{
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
