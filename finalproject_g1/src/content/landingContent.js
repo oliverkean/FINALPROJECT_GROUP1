@@ -48,8 +48,7 @@ export const accordionContent1 = [
     {
         title: "Icons",
         links: [
-          { text: "Link 3", url: "https://example.com/link1" },
-          { text: "Link 4", url: "https://example.com/link2" },
+          { text: "icons8.com", url: "https://icons8.com/" },
         ]
       },
       {
