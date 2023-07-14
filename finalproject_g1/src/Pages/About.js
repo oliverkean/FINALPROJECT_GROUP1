@@ -47,7 +47,7 @@ function About() {
                             title_color={'dark'}
                         />
 
-                    <div className="row d-flex justify-content-center align-items-center text-center text-md-start g-4">
+                    <div className="row d-flex justify-content-center align-items-center text-center text-lg-start g-4">
                         <div className="col-12 col-md-6"  data-aos="fade-right">
                             <img src="https://cdn-images-1.medium.com/max/480/1*BKBolU2eft8g3iiQt7ZcsA.jpeg" className="shadow-lg rounded h-75 w-75"/>
                         </div>

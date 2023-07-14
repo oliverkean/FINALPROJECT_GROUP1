@@ -47,7 +47,7 @@ function LandingPage() {
             </div>
             {/* Body Layout 1 */}
             
-            <div className="container px-lg-5 px-3 py-3 my-5 rounded bg-dark text-white" data-aos="fade-up"> 
+            <div className="container px-lg-5 px-3 py-3 my-5 rounded bg-light text-dark" data-aos="fade-up"> 
                 <ThreeColGrid>
                     <BodyContent1 content={bodyContent1}/>
                 </ThreeColGrid>

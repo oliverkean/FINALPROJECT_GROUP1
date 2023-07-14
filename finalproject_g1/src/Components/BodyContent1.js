@@ -26,7 +26,7 @@ function BodyContent1({content}) {
                         </div>
                     </div>
                     <div className="col-sm-7 col-md-6 col-lg-12 my-md-3 my-sm-3 my-3 text-center text-sm-start" data-aos="fade-left">
-                        <span className="fs-6 text-white fw-semibold">{content.text}</span>
+                        <span className="fs-6 text-dark fw-semibold">{content.text}</span>
                     </div>
                 </div>
             </div>
