@@ -14,8 +14,13 @@ function BodyContent2({img, title, text, ordL, ordR}) {
     return(
         <>
             <TwoColGrid>
+<<<<<<< HEAD
                 <div className={`col-sm-12 col-md-6 col-lg-6 order-lg-${ordL}`} data-aos="fade-right">
                     <img src={img} alt="Image" loading="lazy" className="img-fluid"/>
+=======
+                <div className={`col-sm-12 col-md-6 col-lg-6 order-lg-${ordL}`}>
+                    <img src={img} alt="Image" loading="lazy" className="img-fluid shadow-lg rounded"/>
+>>>>>>> 0f69edbdb7977416cfa7da51992da83384a5d03e
                 </div>
                 <div className={`col-sm-12 col-md-6 col-lg-6 order-lg-${ordR} p-5`} data-aos="fade-left">
                     <div className="my-3">

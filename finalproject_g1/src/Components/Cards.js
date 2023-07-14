@@ -13,18 +13,6 @@ function Cards({image, title, text, link}) {
     return(
 <<<<<<< HEAD
         <div className="col-12 col-sm-6 col-md-6 col-lg-4 g-3">
-            {/* <div class="card">
-                <div class="card-header">
-                    <img src={image} class="card-img-top" alt="..."/>
-                </div>
-                <div class="card-body">
-                    <div class="card-body">
-                        <h5 class="card-title">{title}</h5>
-                        <p class="card-text">{text}</p>
-                        <a href="#" class="text-primary">Learn More</a>
-                    </div>
-                </div>
-            </div> */}
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  style={{ overflow:'hidden', backgroundSize: 'cover', backgroundImage: `url("https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80")`}}>
 =======
         <div className="col-12 col-sm-6 col-md-6 col-lg-4 my-3" data-aos="fade-up">
