@@ -35,7 +35,7 @@ function LearnMore() {
                 <Heading 
                     title="Goal 4: Quality Education Infographic"
                     text="Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"
-                    size="4"
+                    size="2"
                     weight="bold"
                     align="left"
                 /> 
@@ -45,7 +45,7 @@ function LearnMore() {
                 <Heading 
                     title="News and Articles"
                     text="Here are some relevant news and articles for more information:"
-                    size="4"
+                    size="2"
                     weight="bold"
                     align="left"
                 />  

@@ -58,7 +58,7 @@ function LandingPage() {
                 <Heading 
                     title="Key Targets and Indicators"
                     text="To track progress towards achieving Goal 4, the United Nations has identified key targets and indicators. Here are some important ones:"
-                    size="3"
+                    size="2"
                     weight="bold"
                     align="left"
                     
@@ -91,7 +91,7 @@ function LandingPage() {
                 <Heading 
                     title="Challenges and solutions"
                     text="Achieving quality education for all is not without its challenges. Here are some common obstacles and potential solutions:"
-                    size="3"
+                    size="2"
                     weight="bold"
                     
                     align="left"
@@ -139,7 +139,7 @@ function LandingPage() {
                 <Heading 
                     title="News"
                     text="Here are some related articles for more information:"
-                    size="4"
+                    size="2"
                     weight="bold"
                     
                     align="left"

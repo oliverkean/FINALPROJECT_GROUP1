@@ -23,7 +23,7 @@ export default function BodyContent4() {
                 <Heading 
                     title="Related Topics and Relevant Articles"
                     text="Here are some topics and relevant articles related to Goal 4:"
-                    size="4"
+                    size="2"
                     weight="bold"
                     align="left"
                 /> 
