@@ -23,6 +23,7 @@ import teachericon from '../Assets/images/icons8-teacher-100.png'
 import policyicon from '../Assets/images/icons8-policy-100.png'
 import trainingicon from '../Assets/images/icons8-training-100.png'
 import savingsicon from '../Assets/images/icons8-euro-money-100.png'
+import header1 from '../Assets/images/header1.webp'
 
 
 import { bodyContent1 } from "../content/landingContent";
@@ -38,6 +39,7 @@ function LandingPage() {
             {/* Header */}
             <div className="container" >
                 <Header 
+                    image={header1}
                     title="UN Sustainable Development Goal #4: Quality Education"
                     text="Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"
                 />

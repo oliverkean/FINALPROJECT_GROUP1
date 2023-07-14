@@ -4,12 +4,15 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import { accordionContent1 } from "../content/landingContent";
 
+import header4 from '../Assets/images/header4.jpeg'
+
 function References() {
     return(
         <>
             <Navbar/>
             <div className="container my-5 py-5" >
                 <Header 
+                    image={header4}
                     title="References"
                     text="This page contains all references to resources used in this website."
                 />

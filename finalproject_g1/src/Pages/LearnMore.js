@@ -14,6 +14,7 @@ import lcard3 from '../Assets/images/lcard3.webp'
 import lcard4 from '../Assets/images/lcard4.jpg'
 import lcard5 from '../Assets/images/lcard5.webp'
 import lcard6 from '../Assets/images/lcard6.jpg'
+import header2 from '../Assets/images/header2.jpg'
 
 import BodyContent4 from "../Components/BodyContent4";
 
@@ -25,6 +26,7 @@ function LearnMore() {
              {/* Header */}
              <div className="container">
                 <Header 
+                    image={header2}
                     title="Learn More"
                     text="Discover the transformative power of quality education, where knowledge meets opportunity, unlocking boundless potential for learners of all ages and backgrounds."
                 />

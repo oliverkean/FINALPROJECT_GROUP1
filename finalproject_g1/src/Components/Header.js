@@ -22,7 +22,7 @@ export default function Header({title, text, image}) {
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 offset-lg-1 p-0 overflow-hidden " data-aos="fade-left">
-                    <img class="rounded-lg-3" src="https://images.pexels.com/photos/3755511/pexels-photo-3755511.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" width="720"/>
+                    <img class="rounded-lg-3" src={image} alt="" width="720"/>
                 </div>
             </div>
         </>

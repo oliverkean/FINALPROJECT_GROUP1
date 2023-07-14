@@ -8,6 +8,8 @@ import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import header3 from '../Assets/images/header3.jpg'
+
 function About() {
     useEffect(() => {
         AOS.init({
@@ -20,6 +22,7 @@ function About() {
             <Navbar/>
             <div className="container my-5 py-5" >
                 <Header 
+                image={header3}
                     title="About Goal 4: Quality Education"
                     text="SDG4 focuses on education and aims to “ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.” "
                 />
