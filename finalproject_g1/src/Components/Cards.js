@@ -23,15 +23,3 @@ function Cards({image, title, text, link}) {
 }
 
 export default Cards
-
-{/* <li class="me-auto">
-                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"/>
-                    </li>
-                    <li class="d-flex align-items-center me-3"> */}
-                        {/* <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg> */}
-                    //     <small>Earth</small>
-                    // </li>
-                    // <li class="d-flex align-items-center">
-                        {/* <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg> */}
-                        {/* <small>3d</small>
-                    </li> */}

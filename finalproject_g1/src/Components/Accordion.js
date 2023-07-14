@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 export default function Accordion({content}) {
     useEffect(() => {
         AOS.init({
+            duration: '1000',
             disable: 'mobile'
         });
     }, [])

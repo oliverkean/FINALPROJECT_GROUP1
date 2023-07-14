@@ -1,19 +1,14 @@
 import Navbar from "../Components/Navbar";
-<<<<<<< HEAD
-=======
-import Footer from "../Components/Footer";
-import Cards from "../Components/Cards";
-<<<<<<< HEAD
-import ThreeColGrid from "../Layouts/ThreeColGrid";
-import TwoColGrid from "../Layouts/TwoColGrid";
-=======
->>>>>>> c3e59b53ad1906e05d552ea3a6b6732047e6265d
->>>>>>> origin/main
+
 import BodyContent1 from "../Components/BodyContent1";
 import BodyContent2 from "../Components/BodyContent2";
 import Heading from "../Components/Heading";
 import BodyContent3 from "../Components/BodyContent3";
 import Header from "../Components/Header";
+import TwoColGrid from "../Layouts/TwoColGrid";
+import ThreeColGrid from "../Layouts/ThreeColGrid";
+import Cards from "../Components/Cards";
+import Footer from "../Components/Footer";
 
 
 // images
@@ -38,15 +33,10 @@ import Jumbotron from "../Components/Jumbotron";
 
 function LandingPage() {
     return(
-<<<<<<< HEAD
-        <div className="contianer">
-=======
-        <div className="container">
->>>>>>> origin/main
+        <>
             {/* Nav */}
             <Navbar/>
 
-<<<<<<< HEAD
             {/* Header */}
             <div className="container" >
                 <Header 
@@ -94,23 +84,6 @@ function LandingPage() {
                     text="Efforts should be made to promote literacy and numeracy skills among youth and adults, empowering them to actively participate in society and the economy."
                     ordL={0}
                     ordR={0}
-=======
-            {/* Testing */}
-<<<<<<< HEAD
-            <ThreeColGrid 
-                col1={<BodyContent1 image={icon1} title="Title" text="lorem ipsum dolor sit amet"/>}
-                col2={<BodyContent1 image={icon2} title="Title" text="lorem ipsum dolor sit amet"/>}
-                col3={<BodyContent1 image={icon3} title="Title" text="lorem ipsum dolor sit amet"/>}
-            />
-            
-=======
-            {/*testing olibs, suggestion put it into section*/}
-            <div className="container"> 
-                <ThreeColGrid
-                    col1={<BodyContent1 image={icon1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>}
-                    col2={<BodyContent1 image={icon2} title="Equitable Education" text="Providing all learning resource"/>}
-                    col3={<BodyContent1 image={icon3} title="Child Development" text="Developing all skill capabilities"/>}
->>>>>>> origin/main
                 />
             </div>
 
@@ -165,7 +138,6 @@ function LandingPage() {
             {/* Body Layout 4 */}
             <div className="container py-5 my-5">
                 <Heading 
-                    title="Title"
                     title="News"
                     text="Here are some related articles for more information:"
                     size="4"
@@ -183,9 +155,7 @@ function LandingPage() {
                 </ThreeColGrid>
             </div>
             <Footer/>
-
->>>>>>> c3e59b53ad1906e05d552ea3a6b6732047e6265d
-        </div>
+        </>
     );
 }
 

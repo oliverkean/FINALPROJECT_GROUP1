@@ -8,9 +8,8 @@ import header4 from '../Assets/images/header4.jpeg'
 
 function References() {
     return(
-        <div className="container">
+        <>
             <Navbar/>
-<<<<<<< HEAD
             <div className="container my-5 py-5" >
                 <Header 
                     image={header4}
@@ -23,10 +22,6 @@ function References() {
             </div>
             <Footer/>
         </>
-=======
-            hello from references
-        </div>
->>>>>>> origin/main
     );
 }
 

@@ -28,7 +28,7 @@ export default function BodyContent4() {
                     align="left"
                 /> 
                 <div class="row align-items-md-stretch">
-                    <div class="col-md-6 my-3 my-sm-0" data-aos="fade-right">
+                    <div class="col-md-6 my-3 my-sm-2" data-aos="fade-right">
                         <div class="h-100 p-5 text-bg-dark rounded-3">
                         <h2 className="text-danger">Education</h2>
                         <p className="">Education for all has always been an integral part of the sustainable development agenda. The World Summit on Sustainable Development (WSSD) in 2002 adopted the Johannesburg Plan of Implementation (JPOI) which in its Section X, reaffirmed both the Millennium Development Goal 2 in achieving universal primary education by 2015 and the goal of the Dakar Framework for Action on Education for All to eliminate gender disparity in primary and secondary education by 2005 and at all levels of education by 2015. The JPOI addressed the need to integrate sustainable development into formal education at all levels, as well as through informal and non-formal education opportunities.</p>
