@@ -12,9 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
-.my-custom-color {
-  color: #ff0000; /* Red text color */
-  background-color: #00ff00; /* Green background color */
+.text-stroke {
+  -webkit-text-stroke-width:.5px;
+  -webkit-text-stroke-color: #000;
+  text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
 }
 
 /* .navbar-toggler-icon,
