@@ -1,7 +1,7 @@
-function ThreeColGrid({children}) {
+function ThreeColGrid({children, bg}) {
     return(
         
-        <div className = 'row'>
+        <div className = {`row bg-${bg}`}>
             {children}
         </div>
     );

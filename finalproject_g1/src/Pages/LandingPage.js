@@ -1,13 +1,14 @@
 import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
-import Cards from "../Components/Cards";
-import ThreeColGrid from "../Layouts/ThreeColGrid";
-import TwoColGrid from "../Layouts/TwoColGrid";
+
 import BodyContent1 from "../Components/BodyContent1";
 import BodyContent2 from "../Components/BodyContent2";
 import Heading from "../Components/Heading";
 import BodyContent3 from "../Components/BodyContent3";
 import Header from "../Components/Header";
+import TwoColGrid from "../Layouts/TwoColGrid";
+import ThreeColGrid from "../Layouts/ThreeColGrid";
+import Cards from "../Components/Cards";
+import Footer from "../Components/Footer";
 
 
 // images
@@ -32,7 +33,7 @@ import Jumbotron from "../Components/Jumbotron";
 
 function LandingPage() {
     return(
-        <div className="contianer">
+        <>
             {/* Nav */}
             <Navbar/>
 
@@ -53,13 +54,12 @@ function LandingPage() {
             </div>
 
             {/* Body Layout 2 */} 
-            <div className="container">
+            <div className="container py-5 my-5">
                 <Heading 
                     title="Key Targets and Indicators"
                     text="To track progress towards achieving Goal 4, the United Nations has identified key targets and indicators. Here are some important ones:"
                     size="3"
                     weight="bold"
-                    
                     align="left"
                     
                 />
@@ -141,7 +141,7 @@ function LandingPage() {
                 <Jumbotron/>
             </div>
             {/* Body Layout 4 */}
-            <div className="container">
+            <div className="container py-5 my-5">
                 <Heading 
                     title="News"
                     text="Here are some related articles for more information:"
@@ -160,8 +160,7 @@ function LandingPage() {
                 </ThreeColGrid>
             </div>
             <Footer/>
-
-        </div>
+        </>
     );
 }
 

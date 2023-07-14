@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-
 *{
   font-family: 'Poppins', sans-serif;
 }
@@ -21,42 +20,10 @@ html {
 }
 
 /* .navbar-toggler-icon,
-=======
-/* width */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #a79e9e;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #DC3545;
-}
-
-.navbar-toggler-icon,
->>>>>>> 0f69edbdb7977416cfa7da51992da83384a5d03e
 .navbar-toggler,
 .navbar-toggler-icon:focus{
   outline: none !important;
   border: none !important;
   box-shadow: none !important;
-<<<<<<< HEAD
-}
-<<<<<<< HEAD
-
-=======
 
 } */
->>>>>>> a4857c1221dfd9763fed869aab81f8e90f0ee43f
-=======
->>>>>>> 0f69edbdb7977416cfa7da51992da83384a5d03e

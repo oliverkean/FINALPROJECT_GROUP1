@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 function BodyContent3({image, title, text}) {
     useEffect(() => {
         AOS.init({
-            duration: 800,
+            duration: 1000,
             disable: 'mobile'
         });
       }, [])

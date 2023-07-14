@@ -22,21 +22,8 @@ function Cards({image, title, text, link}) {
                     <h3 class="pt-5 mt-5 mb-4 fs-3 lh-1 fw-bold text-stroke"><a className="link-hover link-underline-light link-light link-underline-opacity-0 link-underline-opacity-75-hover" href={link} target="_blank">{title}</a></h3>
                 </div>
             </div>
-        </div>
-        
+        </div>        
     );
 }
 
 export default Cards
-
-{/* <li class="me-auto">
-                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"/>
-                    </li>
-                    <li class="d-flex align-items-center me-3"> */}
-                        {/* <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg> */}
-                    //     <small>Earth</small>
-                    // </li>
-                    // <li class="d-flex align-items-center">
-                        {/* <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg> */}
-                        {/* <small>3d</small>
-                    </li> */}
