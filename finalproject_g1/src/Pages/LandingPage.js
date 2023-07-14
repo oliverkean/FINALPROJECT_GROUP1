@@ -11,8 +11,6 @@ import Header from "../Components/Header";
 
 
 // images
-import icon1 from '../Assets/images/icons8-education-100.png'
-import img1 from '../Assets/images/pexels-maël-balland-13713058.jpg'
 import freeeducation from '../Assets/images/freeeducation.jpg'
 import qualitytechnical from '../Assets/images/qualitytechnical.jpg'
 import literacy from '../Assets/images/literacy.png'
@@ -137,7 +135,7 @@ function LandingPage() {
             {/* Body Layout 4 */}
             <div className="container">
                 <Heading 
-                    title="Related Articles"
+                    title="News"
                     text="Here are some related articles for more information:"
                     size="4"
                     weight="bold"
@@ -145,9 +143,12 @@ function LandingPage() {
                     align="left"
                 />  
                 <ThreeColGrid>
-                    <Cards image={newart1} title="Education Opportunities" text="Give Learning Opportunities to everyone."/>
-                    <Cards image={newart2} title="Equitable Education" text="Providing all learning resource"/>
-                    <Cards image={newart3} title="Child Development" text="Developing all skill capabilities"/>
+                    <Cards 
+                        image={newart1} 
+                        title="Expert Group to Prepare Report Analysing Climate and SDG Synergies, Aiming to Maximize Action Impact" 
+                        link="https://sdgs.un.org/blog/expert-group-prepare-report-analysing-climate-and-sdg-synergies-aiming-maximize-action-impact"/>
+                    <Cards image={newart2} title="The Higher Education Sustainability Initiative discusses integrating the Sustainable Development Goals into Higher Education" link="https://sdgs.un.org/news/higher-education-sustainability-initiative-discusses-integrating-sustainable-development-goals"/>
+                    <Cards image={newart3} title="The Higher Education Sustainability Initiative discusses the transformation of higher education as a result of the COVID-19 pandemic" link="https://sdgs.un.org/news/higher-education-sustainability-initiative-discusses-transformation-higher-education-result"/>
                 </ThreeColGrid>
             </div>
             <Footer/>
