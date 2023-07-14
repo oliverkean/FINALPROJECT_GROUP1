@@ -13,7 +13,7 @@ export default function Header({title, text, image}) {
       }, [])
     return(
         <>
-            <div class="row pb-0 pe-lg-0 pt-lg-5 align-items-center">
+            <div class="row pb-0 pe-lg-0 pt-lg-5 align-items-center vh-100">
                 <div class="col-lg-7 col-12 p-3">
                     <h1 class="display-4 fw-bold lh-1 text-body-emphasis my-4">{title}</h1>
                     <p class="lead my-4">{text}</p>

@@ -60,7 +60,6 @@ function LandingPage() {
                     text="To track progress towards achieving Goal 4, the United Nations has identified key targets and indicators. Here are some important ones:"
                     size="3"
                     weight="bold"
-                    
                     align="left"
                     
                 />
