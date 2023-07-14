@@ -17,8 +17,7 @@ function Cards({image, title, text, link}) {
                     <h3 class="pt-5 mt-5 mb-4 fs-3 lh-1 fw-bold text-stroke"><a className="link-hover link-underline-light link-light link-underline-opacity-0 link-underline-opacity-75-hover" href={link} target="_blank">{title}</a></h3>
                 </div>
             </div>
-        </div>
-        
+        </div>        
     );
 }
 
