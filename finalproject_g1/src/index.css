@@ -9,11 +9,26 @@ code {
     monospace;
 }
 
-.navbar-toggler-icon,
+html {
+  scroll-behavior: smooth;
+}
+
+.text-stroke {
+  -webkit-text-stroke-width:.5px;
+  -webkit-text-stroke-color: #000;
+  text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, 1px 1px 0 #000;
+}
+
+/* .navbar-toggler-icon,
 .navbar-toggler,
 .navbar-toggler-icon:focus{
   outline: none !important;
   border: none !important;
   box-shadow: none !important;
+<<<<<<< HEAD
 }
 
+=======
+
+} */
+>>>>>>> a4857c1221dfd9763fed869aab81f8e90f0ee43f
